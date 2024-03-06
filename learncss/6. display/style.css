@@ -1,6 +1,25 @@
 *{
     border: 1px solid red;
-    margin: 0;
-    padding: 0;
     box-sizing: border-box;
+}
+body{
+    font-family: 'Courier New', Courier, monospace;
+}
+p{
+    display: inline;
+    color: red;
+}
+ul{
+    text-align: right;
+    padding: 30px;
+    background-color: black;
+    color: white;
+}
+li{
+    display: inline;
+    padding: 20px;
+}
+li:hover{
+    color: seagreen;
+    cursor: pointer;
 }
